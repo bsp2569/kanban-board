@@ -1,0 +1,35 @@
+.controlsContainer {
+  display: flex;
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 20px 40px;
+}
+
+.columnsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0 40px;
+}
+
+.column {
+  flex: 1;
+  min-width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.columnTitle {
+  font-size: 18px;
+  text-align: left;
+}
+
+.image {
+  height: 20px;
+  width: 20px;
+}
+
+.ticketCount {
+  color: var(--color-grey-6);
+  font-size: 16px;
+}

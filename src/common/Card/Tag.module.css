@@ -1,0 +1,19 @@
+.tag {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border: 1px solid var(--color-grey-4);
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.tagText {
+  color: var(--color-grey-6);
+}
+
+.tagDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--color-grey-4);
+}
