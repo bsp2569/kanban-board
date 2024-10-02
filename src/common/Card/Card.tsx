@@ -32,7 +32,7 @@ const Card: React.FC<CardProps> = ({
       <div className={styles.header}>
         <span className={styles.id}>{id}</span>
         {grouping !== "user" && (
-          <Avatar
+          <Avatar name={user.name}
             imageUrl={user.profileImage}
             altText={user.name}
             isOnline={user.available}
